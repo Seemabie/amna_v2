@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reserve a date · Amna's Photography</title>
+<meta name="description" content="Book a photography session with Amna. Choose a session, pick a date, and reserve your place.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- ========= NAV ========= -->
+<nav class="nav" aria-label="Primary">
+  <a class="nav__brand" href="index.html">Amna's <em class="italic">Photography</em><sup>EST. 2017</sup></a>
+  <div class="nav__center">
+    <a href="index.html">Index</a>
+    <a href="about.html">Studio</a>
+    <a href="portfolio.html">Archive</a>
+    <a href="services.html">Sessions</a>
+    <a href="testimonials.html">Letters</a>
+    <a href="journal.html">Journal</a>
+  </div>
+  <a class="nav__cta active" href="booking.html">Reserve a date</a>
+  <button class="nav__toggle" aria-label="Open menu"><span></span><span></span></button>
+</nav>
+<div class="nav__drawer">
+  <a href="index.html">Index</a>
+  <a href="about.html">Studio</a>
+  <a href="portfolio.html">Archive</a>
+  <a href="services.html">Sessions</a>
+  <a href="testimonials.html">Letters</a>
+  <a href="journal.html">Journal</a>
+  <a href="contact.html">Inquire</a>
+  <a href="booking.html">Reserve a date</a>
+</div>
+
+<!-- ========= BOOKING ========= -->
+<main class="book-shell" data-booking>
+
+  <div class="book-head reveal">
+    <div>
+      <span class="eyebrow">Reservation · No. 002</span>
+      <h1>Reserve<br>your <span class="italic">date.</span></h1>
+    </div>
+    <p class="book-head__copy">
+      Four short steps. Choose a session, pick a date, share a little about you, and I'll send a personal confirmation within the day. Your card is not charged here.
+    </p>
+  </div>
+
+  <!-- progress bar -->
+  <div class="book-progress reveal">
+    <div class="book-progress__step is-active">
+      <div class="book-progress__num">Step i.</div>
+      <div class="book-progress__label">Session</div>
+    </div>
+    <div class="book-progress__step">
+      <div class="book-progress__num">Step ii.</div>
+      <div class="book-progress__label">Date &amp; time</div>
+    </div>
+    <div class="book-progress__step">
+      <div class="book-progress__num">Step iii.</div>
+      <div class="book-progress__label">Your details</div>
+    </div>
+    <div class="book-progress__step">
+      <div class="book-progress__num">Step iv.</div>
+      <div class="book-progress__label">Confirm</div>
+    </div>
+  </div>
+
+  <!-- =========== STEP 1: SESSION =========== -->
+  <section class="book-panel is-active">
+    <h2 style="font-size: clamp(2rem, 4vw, 3.4rem); margin-bottom: 0.4rem;">Begin by choosing<br>a <span class="italic">session.</span></h2>
+    <p class="lead" style="margin-bottom: 2.4rem; max-width: 60ch;">Each session has its own quiet rhythm. Pick the one closest to what you're imagining and we can shape the rest together.</p>
+
+    <div class="session-grid">
+      <button type="button" class="session-card" data-session="newborn">
+        <div class="session-card__img"><img src="assets/images/thumb/newborn_in_cream_knit_basket.jpg" alt="Newborn session"></div>
+        <div class="session-card__body">
+          <div class="session-card__num">Session No. 01</div>
+          <div class="session-card__title">The Newborn Quiet</div>
+          <div class="session-card__desc">A slow morning at home, in the first two weeks. Lifestyle, soft light, the family as it is.</div>
+          <div class="session-card__meta">3 hours · In your home</div>
+        </div>
+      </button>
+
+      <button type="button" class="session-card" data-session="family">
+        <div class="session-card__img"><img src="assets/images/thumb/family_of_four_white_outfits.jpg" alt="Family session"></div>
+        <div class="session-card__body">
+          <div class="session-card__num">Session No. 02</div>
+          <div class="session-card__title">The Family Hour</div>
+          <div class="session-card__desc">Ninety unhurried minutes outdoors or in. Honest, unposed, the way the children actually move.</div>
+          <div class="session-card__meta">90 min · Location of your choosing</div>
+        </div>
+      </button>
+
+      <button type="button" class="session-card" data-session="couple">
+        <div class="session-card__img"><img src="assets/images/thumb/couple_white_outfit_intimate.jpg" alt="Couples session"></div>
+        <div class="session-card__body">
+          <div class="session-card__num">Session No. 03</div>
+          <div class="session-card__title">The Couple Chapter</div>
+          <div class="session-card__desc">Engagement, anniversary, or simply because. Two hours of being looked at well.</div>
+          <div class="session-card__meta">2 hours · Two locations welcome</div>
+        </div>
+      </button>
+
+      <button type="button" class="session-card" data-session="maternity">
+        <div class="session-card__img"><img src="assets/images/thumb/pregnancy_announcement_baby_shoes.jpg" alt="Maternity session"></div>
+        <div class="session-card__body">
+          <div class="session-card__num">Session No. 04</div>
+          <div class="session-card__title">The Maternity Pause</div>
+          <div class="session-card__desc">Photographed best between weeks 28 and 34. Indoors, outdoors, or both, with time to rest.</div>
+          <div class="session-card__meta">90 min · Indoors or outdoors</div>
+        </div>
+      </button>
+
+      <button type="button" class="session-card" data-session="wedding">
+        <div class="session-card__img"><img src="assets/images/thumb/bride_red_veil_close.jpg" alt="Wedding session"></div>
+        <div class="session-card__body">
+          <div class="session-card__num">Session No. 05</div>
+          <div class="session-card__title">The Wedding Day</div>
+          <div class="session-card__desc">Full coverage of the day, photographed with the eye of a documentarian and the patience of a friend.</div>
+          <div class="session-card__meta">6 to 10 hours · Bay Area &amp; beyond</div>
+        </div>
+      </button>
+
+      <button type="button" class="session-card" data-session="brand">
+        <div class="session-card__img"><img src="assets/images/thumb/aroma_house_candle_product.jpg" alt="Brand session"></div>
+        <div class="session-card__body">
+          <div class="session-card__num">Session No. 06</div>
+          <div class="session-card__title">The Brand Story</div>
+          <div class="session-card__desc">Editorial product and lifestyle photography for small studios and considered brands.</div>
+          <div class="session-card__meta">Half &amp; full days · Studio or on-site</div>
+        </div>
+      </button>
+    </div>
+  </section>
+
+  <!-- =========== STEP 2: DATE & TIME =========== -->
+  <section class="book-panel">
+    <h2 style="font-size: clamp(2rem, 4vw, 3.4rem); margin-bottom: 0.4rem;">Choose a date<br>and a <span class="italic">time.</span></h2>
+    <p class="lead" style="margin-bottom: 2.4rem; max-width: 60ch;">Booked dates are softly crossed out. Sundays are a rest day at the studio. The most desirable hours are the ones nearest sunset.</p>
+
+    <div class="book-datepick">
+      <div class="calendar">
+        <div class="calendar__head">
+          <div class="calendar__title" data-calendar-title>Month Year</div>
+          <div class="calendar__nav">
+            <button type="button" data-cal-prev aria-label="Previous month">‹</button>
+            <button type="button" data-cal-next aria-label="Next month">›</button>
+          </div>
+        </div>
+        <div class="calendar__weekdays">
+          <div class="calendar__weekday">Sun</div>
+          <div class="calendar__weekday">Mon</div>
+          <div class="calendar__weekday">Tue</div>
+          <div class="calendar__weekday">Wed</div>
+          <div class="calendar__weekday">Thu</div>
+          <div class="calendar__weekday">Fri</div>
+          <div class="calendar__weekday">Sat</div>
+        </div>
+        <div class="calendar__grid" data-calendar-grid></div>
+        <div class="calendar__legend">
+          <span>Available</span>
+          <span class="legend--booked">Booked</span>
+          <span class="legend--today">Today</span>
+        </div>
+      </div>
+
+      <div class="time-panel" data-time-panel>
+        <div class="time-panel__head">
+          <div class="time-panel__title">Hours</div>
+          <div class="time-panel__date" data-time-date></div>
+        </div>
+        <div class="time-panel__empty" data-time-empty>Choose a date to see available hours.</div>
+        <div class="time-slots" data-time-slots style="display:none;"></div>
+        <p class="muted" style="font-family: var(--mono); font-size: 0.66rem; letter-spacing: 0.18em; text-transform: uppercase; margin-top: 0.4rem;">Pacific time. Sessions begin on the hour.</p>
+      </div>
+    </div>
+
+    <div class="book-stepnav">
+      <button type="button" class="btn btn--ghost" data-step-back="1">← Change session</button>
+      <button type="button" class="btn" data-step-next="3">Continue →</button>
+    </div>
+  </section>
+
+  <!-- =========== STEP 3: DETAILS =========== -->
+  <section class="book-panel">
+    <h2 style="font-size: clamp(2rem, 4vw, 3.4rem); margin-bottom: 0.4rem;">A few details<br>and you're <span class="italic">done.</span></h2>
+    <p class="lead" style="margin-bottom: 2.4rem; max-width: 60ch;">I'll use this to draft your confirmation and to send the welcome guide. Your information is private and never shared.</p>
+
+    <div class="book-details-grid">
+      <form class="form" data-details-form>
+        <div class="field--half">
+          <div class="field">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" required placeholder="First and last">
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="you@example.com">
+          </div>
+        </div>
+        <div class="field--half">
+          <div class="field">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" placeholder="Optional but kind">
+          </div>
+          <div class="field">
+            <label for="location">Preferred location</label>
+            <input type="text" id="location" name="location" placeholder="Home, Berkeley Hills, somewhere new...">
+          </div>
+        </div>
+        <div class="field">
+          <label for="notes">Anything I should know</label>
+          <textarea id="notes" name="notes" placeholder="The story of the day, the people involved, what you're hoping for..."></textarea>
+        </div>
+      </form>
+
+      <aside class="book-summary">
+        <div class="book-summary__title">Your reservation</div>
+        <div data-summary>
+          <div class="book-summary__row">
+            <dt>Session</dt>
+            <dd data-field="session"></dd>
+          </div>
+          <div class="book-summary__row">
+            <dt>Date</dt>
+            <dd data-field="date"></dd>
+          </div>
+          <div class="book-summary__row">
+            <dt>Time</dt>
+            <dd data-field="time"></dd>
+          </div>
+          <div class="book-summary__row">
+            <dt>Name</dt>
+            <dd data-field="name"></dd>
+          </div>
+          <div class="book-summary__row">
+            <dt>Email</dt>
+            <dd data-field="email"></dd>
+          </div>
+        </div>
+        <p class="book-summary__note">No payment is collected here. I'll reply with a personal confirmation and an invoice within the day.</p>
+      </aside>
+    </div>
+
+    <div class="book-stepnav">
+      <button type="button" class="btn btn--ghost" data-step-back="2">← Change date</button>
+      <button type="button" class="btn" data-step-next="4">Reserve →</button>
+    </div>
+  </section>
+
+  <!-- =========== STEP 4: CONFIRMATION =========== -->
+  <section class="book-panel">
+    <div class="book-confirm" data-confirm>
+      <div class="book-confirm__seal">✓</div>
+      <span class="eyebrow">Reserved</span>
+      <h2>Thank you,<br><span class="italic" data-conf-name>friend</span>.</h2>
+      <p class="lead" style="max-width: 52ch;">Your reservation is held. A personal confirmation, the welcome guide, and your invoice are on their way to your inbox within the day.</p>
+
+      <div class="book-confirm__details">
+        <div class="book-summary__row">
+          <dt>Reference</dt>
+          <dd data-conf-ref>AP-XXXXX</dd>
+        </div>
+        <div class="book-summary__row">
+          <dt>Session</dt>
+          <dd data-conf-session></dd>
+        </div>
+        <div class="book-summary__row">
+          <dt>Date</dt>
+          <dd data-conf-date></dd>
+        </div>
+        <div class="book-summary__row">
+          <dt>Time</dt>
+          <dd data-conf-time></dd>
+        </div>
+        <div class="book-summary__row">
+          <dt>Email</dt>
+          <dd data-conf-email></dd>
+        </div>
+      </div>
+
+      <div class="book-confirm__timeline">
+        <div class="timeline-step">
+          <div class="timeline-step__num">i.</div>
+          <div>
+            <h4>Within the day</h4>
+            <p>A personal email with your confirmation, welcome guide, and an invoice for the deposit.</p>
+          </div>
+        </div>
+        <div class="timeline-step">
+          <div class="timeline-step__num">ii.</div>
+          <div>
+            <h4>Two weeks before</h4>
+            <p>A short planning call. We talk about light, wardrobe, the shape of the day, and any small worries.</p>
+          </div>
+        </div>
+        <div class="timeline-step">
+          <div class="timeline-step__num">iii.</div>
+          <div>
+            <h4>Three to four weeks after</h4>
+            <p>Your private gallery arrives. Prints and albums, if you'd like them, follow.</p>
+          </div>
+        </div>
+      </div>
+
+      <a class="btn" href="index.html" style="margin-top: 2rem;">Return to the index</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- ========= FOOTER ========= -->
+<footer class="footer">
+  <div class="shell">
+    <div class="footer__mark"><em class="italic">Amna's</em> Photography</div>
+    <div class="footer__grid">
+      <div class="footer__col">
+        <h5>Studio</h5>
+        <a href="about.html">About Amna</a>
+        <a href="journal.html">The journal</a>
+        <a href="testimonials.html">Kind letters</a>
+      </div>
+      <div class="footer__col">
+        <h5>Sessions</h5>
+        <a href="newborn.html">Newborn</a>
+        <a href="families.html">Families</a>
+        <a href="weddings.html">Weddings</a>
+        <a href="lifestyle.html">Brand &amp; lifestyle</a>
+      </div>
+      <div class="footer__col">
+        <h5>Reserve</h5>
+        <a href="booking.html">Book a session</a>
+        <a href="contact.html">Send an inquiry</a>
+        <a href="services.html">All sessions</a>
+      </div>
+      <div class="footer__col">
+        <h5>Reach</h5>
+        <p>hello@amnasphotography.com</p>
+        <p>+1 628 228 7587</p>
+        <a href="https://www.facebook.com/profile.php?id=100063648582807" target="_blank" rel="noopener">Facebook</a>
+      </div>
+    </div>
+    <div class="footer__base">
+      <span>© 2026 Amna's Photography · Berkeley, California</span>
+      <span>Studio hours · Tues to Sat · By appointment</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
